@@ -397,11 +397,13 @@ contributors:
                        <img src="NataliaGifs/dock_consideration.gif" alt="osX Dock Consideration when Resizing">
                        <div class="caption">
                            <h4>Taking the Dock into account</h4>
-                           <p>Take the position of the Dock into account when creating and resizing windows.
-                               It’s difficult to drag or resize a portion of a window that’s positioned behind
-                               the Dock or too close to the edge of the screen that hides the Dock. In general, prevent
-                                windows from being positioned—by your app or the user—in a way that overlaps the
-                                 boundaries of the Dock.</p>
+                           <p>The position of the Dock has to be taken into account when resizing windows.
+                                It’s difficult to drag or resize a portion of a window that’s positioned behind
+                                the Dock or too close to the edge of the screen that hides the Dock. For this reason
+                                once the user reaches the limits of the Dock, the application should stop allowing the user
+                                from resizing it any longer. Feedback is provided to the user by changing the
+                                doubled arrow to a single arrow to indicate that now the window can only be resized in
+                                one direction (oposite to the position on the doc) as illustrated by the picture.</p>
                        </div>
                    </div>
               </div>
